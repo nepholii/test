@@ -1,0 +1,83 @@
+
+body{
+    background-color:#97aef0;
+    background-image:url(photo/truy.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+svg path{
+    stroke:rgb(24, 42, 240);
+}
+svg path:hover {
+ stroke:#ffd700;
+ stroke-width: 0.6%;
+ fill:lavenderblush;
+ transition:1.7s;
+ cursor:grabbing;
+}
+svg path:active{
+    stroke:white;
+    stroke-width:0.4%;
+    fill:red;
+    transition:2s;
+}
+            header{
+                
+                font-size: 38px;
+                color:rgb(186, 67, 19);
+                padding: 10px;
+                font-family:Rampart One;
+
+            }
+            img.head2{
+                width:50px;
+                height: 50px;
+                position:relative;
+                top:7px;
+                
+            }
+            a.nep{
+                width:100px;
+                height:100px;
+                position:relative;
+                right:3px;
+                top: 400px;
+                left: 900px;
+                bottom: 1px;
+
+            }
+            a.ner{
+                width:100px;
+                height:100px;
+                position:relative;
+                right:3px;
+                top: 400px;
+                left: 900px;
+                bottom: 1px;
+
+            }
+            a:hover{
+                color:gold;
+            }
+                a:active{
+                    color:rgb(224, 37, 131);
+                }
+div.space{
+    width: 400px;
+    height: 150px;
+}
+div.topp{
+    border: 0px;
+    margin:0px;
+}
+a{
+    color:whitesmoke;
+}
+svg{
+    float:left;
+}
+a.side{
+    color:black;
+    font-size: 80px;
+}
+
